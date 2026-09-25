@@ -328,7 +328,7 @@ export default function AuthPage() {
               transition={{ delay: 0.8 }}
             >
               <p className="text-slate-500">
-                {isLogin ? "New to Anav.io? " : 'Already have an account? '}
+                {isLogin ? "New to Anav? " : 'Already have an account? '}
                 <motion.button
                   type="button"
                   whileHover={{ scale: 1.05 }}

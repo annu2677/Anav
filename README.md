@@ -1,10 +1,10 @@
-# 🚀 Anav.io
+# 🚀 Anav
 
-![Anav.io Banner](./screenshots/home-feed.png)
+![Anav Banner](./screenshots/home-feed.png)
 
 > **Where you can truly be yourself**
 
-Anav.io is a modern full-stack social media web application designed to give users a space to connect, share posts, interact with content, and engage with a growing community.
+Anav is a modern full-stack social media web application designed to give users a space to connect, share posts, interact with content, and engage with a growing community.
 
 ## ✨ Features
 
@@ -94,7 +94,7 @@ Anav.io is a modern full-stack social media web application designed to give use
 ## 📂 Project Structure
 
 ```text
-Anav.io/
+Anav/
 ├── backend/
 │   ├── src/
 │   ├── pom.xml
@@ -114,8 +114,8 @@ Anav.io/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/annu2677/Anav.io.git
-cd Anav.io
+git clone https://github.com/annu2677/Anav.git
+cd Anav
 ```
 
 ---
@@ -240,4 +240,4 @@ Add captions and share content with the community in a few clicks.
 
 Built with ❤️ using React, Spring Boot, MongoDB, and Cloudinary.
 
-> **Anav.io — Where you can truly be yourself.**
+> **Anav — Where you can truly be yourself.**

@@ -39,7 +39,7 @@ function Sidebar({ user, onLogout, currentPage, unreadCount = 0 }) {
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.32em] text-violet-600/90">Social</p>
-            <h1 className="text-2xl font-semibold text-slate-900">Anav.io</h1>
+            <h1 className="text-2xl font-semibold text-slate-900">Anav</h1>
           </div>
         </div>
 
