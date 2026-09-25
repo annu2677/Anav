@@ -1,9 +1,10 @@
-# 🚀 PingUp
+# 🚀 Anav.io
 
-![PingUp Banner](./screenshots/home-feed.png)
+![Anav.io Banner](./screenshots/home-feed.png)
 
+> **Where you can truly be yourself**
 
-PingUp is a modern social media web application that allows users to connect, share posts, interact with content, and engage with a growing community.
+Anav.io is a modern full-stack social media web application designed to give users a space to connect, share posts, interact with content, and engage with a growing community.
 
 ## ✨ Features
 
@@ -29,12 +30,34 @@ PingUp is a modern social media web application that allows users to connect, sh
 * Like State Persistence after Refresh
 * Duplicate Like Prevention
 
+### 💬 Comments
+
+* Add Comments to Posts
+* View Post Comments
+* Interactive Comment System
+
+### 📷 Stories
+
+* Create and Upload Stories
+* Image and Media Uploads
+* Story Preview and Viewer
+* 24-Hour Story Expiry
+* Story Seen Status
+
+### 👤 User Profiles
+
+* View User Profiles
+* Profile Information
+* User Posts
+* Social Connections
+
 ### 🎨 Modern UI
 
 * Responsive Design
 * Smooth Animations using Framer Motion
 * Modern Social Media Inspired Interface
 * Mobile-Friendly Layout
+* Clean and Interactive User Experience
 
 ---
 
@@ -47,6 +70,7 @@ PingUp is a modern social media web application that allows users to connect, sh
 * Tailwind CSS
 * Framer Motion
 * Axios
+* Lucide React
 
 ### Backend
 
@@ -54,17 +78,23 @@ PingUp is a modern social media web application that allows users to connect, sh
 * Java
 * Maven
 * Spring Data MongoDB
+* JWT Authentication
+* Lombok
 
 ### Database
 
 * MongoDB Atlas / MongoDB
+
+### Media Storage
+
+* Cloudinary
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-PingUp/
+Anav.io/
 ├── backend/
 │   ├── src/
 │   ├── pom.xml
@@ -84,8 +114,8 @@ PingUp/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/annu2677/PingUp.git
-cd PingUp
+git clone https://github.com/annu2677/Anav.io.git
+cd Anav.io
 ```
 
 ---
@@ -107,7 +137,7 @@ http://localhost:5173
 
 ### Backend Setup
 
-Navigate to backend directory:
+Navigate to the backend directory:
 
 ```bash
 cd backend
@@ -128,7 +158,7 @@ mvnw.cmd spring-boot:run
 Backend will run on:
 
 ```text
-http://localhost:8080
+http://localhost:9999
 ```
 
 ---
@@ -191,17 +221,16 @@ Users can upload images directly from their device while creating a new post.
 
 Add captions and share content with the community in a few clicks.
 
+---
 
 ## 🎯 Future Improvements
 
-* Comments System
-* User Profiles
-* Follow / Unfollow Feature
-* JWT Authentication
-* Image Uploads (Cloudinary)
+* Real-Time Messaging
 * Notifications
-* Search Functionality
-* Deployment (Vercel + Render)
+* Advanced Search Functionality
+* Additional Social Features
+* Performance Optimization
+* Further UI/UX Enhancements
 
 ---
 
@@ -209,4 +238,6 @@ Add captions and share content with the community in a few clicks.
 
 **Annoaja Priyadarshini**
 
-Built with ❤️ using React, Spring Boot, and MongoDB.
+Built with ❤️ using React, Spring Boot, MongoDB, and Cloudinary.
+
+> **Anav.io — Where you can truly be yourself.**
