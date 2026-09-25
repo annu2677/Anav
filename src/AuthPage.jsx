@@ -25,12 +25,12 @@ export default function AuthPage() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setIsAnimating(true)
-    console.log('Form submitted:', formData)
+   // console.log('Form submitted:', formData)
     try {
       if (isLogin) {
-        console.log('Attempting login...')
+        //console.log('Attempting login...')
         await login(formData.email, formData.password)
-        console.log('Login successful')
+        //console.log('Login successful')
       } else {
         console.log('Attempting signup...')
         await signup(formData.name, formData.username, formData.email, formData.password)
@@ -138,7 +138,7 @@ export default function AuthPage() {
             >
               <div className="relative">
                 <div className="grid h-20 w-20 place-items-center rounded-3xl bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-500 text-white text-3xl font-bold shadow-2xl shadow-purple-500/50">
-                  P
+                  A
                 </div>
                 <motion.div
                   className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center"
@@ -158,6 +158,16 @@ export default function AuthPage() {
             >
               {isLogin ? 'Welcome Back' : 'Create your account'}
             </motion.h1>
+
+            <motion.p
+            className="mb-3 text-center text-lg font-medium text-purple-600"
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.25 }}
+            >
+            Where you can truly be yourself
+            </motion.p>
+
             <motion.p
               className="mb-8 text-center text-base text-slate-500"
               initial={{ y: 20, opacity: 0 }}
@@ -318,7 +328,7 @@ export default function AuthPage() {
               transition={{ delay: 0.8 }}
             >
               <p className="text-slate-500">
-                {isLogin ? "New to PingUp? " : 'Already have an account? '}
+                {isLogin ? "New to Anav.io? " : 'Already have an account? '}
                 <motion.button
                   type="button"
                   whileHover={{ scale: 1.05 }}
