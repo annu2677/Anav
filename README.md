@@ -236,7 +236,7 @@ Add captions and share content with the community in a few clicks.
 
 ## 👩‍💻 Author
 
-**Annoaja Priyadarshini**
+**Annoaja**
 
 Built with ❤️ using React, Spring Boot, MongoDB, and Cloudinary.
 
