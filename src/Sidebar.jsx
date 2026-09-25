@@ -35,7 +35,7 @@ function Sidebar({ user, onLogout, currentPage, unreadCount = 0 }) {
       >
         <div className="mb-8 flex items-center gap-4">
           <div className="grid h-14 w-14 place-items-center rounded-3xl bg-gradient-to-br from-violet-500 to-fuchsia-500 text-xl text-white shadow-lg">
-            P
+            A
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.32em] text-violet-600/90">Social</p>
